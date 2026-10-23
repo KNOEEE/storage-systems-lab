@@ -1,0 +1,25 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated databases, traces, downloads and large outputs
+/artifacts/*
+!/artifacts/README.md
+/benchmarks/results/*
+!/benchmarks/results/README.md
+/upstreams/checkouts/
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+*.strace
+
+# Editors and local credentials
+.DS_Store
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
