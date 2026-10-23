@@ -1,0 +1,36 @@
+# null = 尚未选择；开始阶段实验时填写真实值，不预设“latest”可复现。
+repositories:
+  sqlite:
+    url: https://github.com/sqlite/sqlite
+    ref: null
+    commit: null
+    runtime_version: null
+    runtime_source_id: null
+  rocksdb:
+    url: https://github.com/facebook/rocksdb
+    ref: null
+    commit: null
+  etcd:
+    url: https://github.com/etcd-io/etcd
+    ref: null
+    commit: null
+  raft:
+    url: https://github.com/etcd-io/raft
+    ref: null
+    commit: null
+  hadoop:
+    url: https://github.com/apache/hadoop
+    ref: null
+    commit: null
+  ceph:
+    url: https://github.com/ceph/ceph
+    ref: null
+    commit: null
+  tikv:
+    url: https://github.com/tikv/tikv
+    ref: null
+    commit: null
+  pd:
+    url: https://github.com/tikv/pd
+    ref: null
+    commit: null
